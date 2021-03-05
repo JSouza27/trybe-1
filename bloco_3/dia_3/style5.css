@@ -1,0 +1,68 @@
+ol li {
+    background-color: yellow;
+}
+
+.par {
+  color: green;
+}
+
+.primo {
+  text-transform: uppercase;
+}
+
+h1 em {
+  color: red;
+  height: 40px;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+}
+
+h3 {
+  color: red;
+}
+
+li {
+  height: 20px;
+}
+
+li em {
+  font-weight: bold;
+}
+
+.list-color {
+  color: blue;
+}
+
+.list-background {
+  background-color: palevioletred;
+}
+
+li:hover {
+  font-weight: bold;
+}
+
+#stackoverflow{
+  color: orangered;
+  list-style: none;
+}
+
+#w3schools{
+  color: green;
+  list-style: none;
+}
+
+#developer{
+  color: black;
+  list-style: none;
+}
+
+#devdocs {
+  color: yellow;
+  list-style: none;
+}
+
+#trybe {
+  color: green;
+  list-style: none;
+}

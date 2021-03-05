@@ -1,0 +1,32 @@
+.links{
+display: inline-block;
+margin-right: 150px;
+margin-left: 150px;
+color: blue;
+font-size: medium;
+}
+
+p{
+  font-size: 18px;
+}
+
+body{
+  background-color: #151E3F;
+  color: #E7C8DD;
+}
+
+header{
+  color: #90E0F3;
+  text-align: center;
+  font-size:x-large;
+}
+
+.img-article{
+  width: 600px;
+  margin-left: 330px;
+} 
+
+aside{
+  list-style: none;
+  color: #E7C8DD;
+}

@@ -1,0 +1,33 @@
+div:hover {
+    border-color: coral;
+    border-style: solid;
+}
+
+.primaria {
+    color: red;
+    font-style: italic;
+}
+
+.secundaria {
+    color: green;
+}
+
+.complementar {
+    color:aqua;
+    height: 200px;
+    font-style: italic
+}
+
+.escura {
+    color: black;
+}
+
+.clara {
+    color: grey;
+    font-style: italic;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 25px;
+    }
