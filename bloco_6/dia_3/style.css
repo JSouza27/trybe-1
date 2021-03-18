@@ -1,0 +1,23 @@
+* {
+  font-family: 'Handlee', cursive;
+  background-color: #F1F2EB;
+  color: #0B132B  ;
+  margin: 10px;
+  box-sizing: border-box;
+}
+
+header {
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  font-style: italic;
+}
+
+.aboutyou {}
+.aboutyourprofesion{}
+
+#fullname{}
