@@ -1,23 +1,41 @@
 * {
-  font-family: 'Handlee', cursive;
-  background-color: #F1F2EB;
-  color: #0B132B  ;
-  margin: 10px;
-  box-sizing: border-box;
-}
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu';
+  }
+  
+  body {
+    background-color: rgb(247, 247, 247);
+  }
+  
+  .header-container {
+    background-color: #5C687C;
+    display: flex;
+    justify-content: flex-start; 
 
-header {
-  font-size: 40px;
-  font-weight: bold;
-  text-align: center;
-}
-
-h2 {
-  text-align: center;
-  font-style: italic;
-}
-
-.aboutyou {}
-.aboutyourprofesion{}
-
-#fullname{}
+  }
+  
+  .logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .menu-container {
+    display: flex;
+  }
+  
+  .menu-container ul {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+  
+  .menu-container li {
+    color: white;
+    font-weight: 500;
+    font-size: 1.3rem;
+    list-style: none;
+    margin-right: 10px;
+  }
