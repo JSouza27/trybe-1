@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulário de Currídulo | Bloco 6</title>
+  <link rel='stylesheet' href='style.css'>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet">    
+</head>
+<body>
+<header>Currículo</header>
+  <h2>Faça o seu cadastro aqui e participe do nosso Banco de Talentos!</h2>   
+<div class='formulary'>
+  <form action='' method='GET'>
+    <fieldset class='aboutyou'>
+      <legend><strong>Sobre Você</strong></legend>
+      <label for='fullname'>Nome Completo:</label>
+        <input type='text' name='name' maxlength= '40' id='fullname' required autocomplete='off'>
+      <label for='email'>e-mail:</label>
+        <input type='email' name='email' maxlength='50' id='email' required autocomplete='off'>
+      <label for='cpf'>CPF:</label>
+        <input type='text' name='cpf' maxlength='11' id='cpf' required autocomplete='off'>
+      <label for='adress'>Endereço Completo:</label>
+        <input type='text' name='adress' maxlength='200' id='adress' required autocomplete='off'>
+      <label for='city'>Cidade:</label>
+        <input type='text' name='city' maxlength='28' id='city' required autocomplete='off'>
+      <label for='state'>Estado: </label>
+        <select name='state' id='state' value='' required>
+        </select>
+      <label for='type-residence'>Apartamento</label>
+        <input type='radio' name='apartment' id='type-residence' required>
+      <label for='type-residence'>Casa</label>
+        <input type='radio' name='house' id='type-residence' required>
+  </fieldset>
+  <fieldset class='about your profession'>
+     <legend><strong>Sobre sua Profissão</strong></legend>
+      <label for='text-area-1'>Resumo do Currículo</label>
+        <textarea name='summary-curriculum' id='text-area-1' cols='210' rows='20' maxlength='1000' minlength='5' placeholder='Faça um resumo do seu currículo.' required></textarea><br>
+      <label for='position'>Cargo:</label>
+        <input type='text' name='position' maxlength='40' id='position' required autocomplete='off'>
+      <label for='description-position'>Descrição do Cargo:</label>
+        <input type='text' name='position' maxlength='500' id='description-position' required autocomplete='off'>
+      <label for='season'>Data de início:</label>
+        <input type='text' name='season' id='season' value='' required autocomplete='off' placeholder='DD/MM/AAAA'>
+  </fieldset>
+  </form>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
